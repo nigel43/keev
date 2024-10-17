@@ -58,7 +58,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('/imagez/uhaa.JPG');
+    background-image: url('imagez/uhaa.JPG');
     background-size: cover;
     background-position: center;
     height: 90vh;
@@ -278,7 +278,7 @@ footer {
         font-size: 1rem;
     }
     .hero {
-        background-image: url('/imagez/uhaphone.JPG');
+        background-image: url('imagez/uhaphone.JPG');
         background-size: cover;
         background-position: center;
         height: 90vh;
