@@ -1,0 +1,337 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #2C3E50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 17vh;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    margin-left: -1100px;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+.h3{
+    font-size: larger;
+}
+h4{
+    margin-left: 600px;
+    font-size: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a:hover{
+    color: #E74C3C;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('imagez/uhaa.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.hero-content {
+    text-align: center;
+    font-size:25px;
+}
+.hero-content.cta-btn{
+    margin-top: 70px;
+
+
+}
+.team{
+    display: flex;
+}
+.team p{
+    font-size: 15px;
+}
+.team img{
+    width: 250px;
+    border-radius: 15px;
+}
+
+.cta-btn {
+    background: #E74C3C;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    gap: 40px;
+    
+}
+.teamm{
+    text-align: left;
+    
+
+}
+.teamm img{
+    margin-left: 20px;
+}
+.teamm h1{
+    font-size: 13px;
+}
+.nigee{
+    text-align: left;
+} 
+.nigee h1{
+    margin-left: 60px;
+    font-size: 13px;
+
+}
+.nigee p{
+    margin-left: 10px;
+}
+.jall{
+    text-align:unset;
+}
+.jall img{
+    margin-left: 90px;
+}
+.jall h1{
+    margin-left: 100px;
+    font-size: 13px;
+}
+.cta-btn:hover {
+    background: #C0392B;
+}
+
+/* Sections */
+section {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+.whyy{
+    background:whitesmoke;
+    margin-top: 60px;
+}
+span{
+    color: rgb(29, 79, 126);
+    font-weight: bolder;
+}
+.why ul{
+    list-style: none;
+
+}
+
+.service {
+    background: #ECF0F1;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+#contact{
+    margin-top: -40px;
+}
+
+.contact-info {
+    margin-bottom: 5px;
+}
+nav .fa-sharp{
+    display: none;
+}
+ nav .fa-solid {
+    display: none;
+
+}
+
+
+
+
+
+
+/* Footer */
+footer {
+    background: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 3px 3px;
+        margin-top: 40px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .team {
+        flex-direction: column;
+    }
+
+    .team img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .jall h1{
+        margin-left: 1px;
+
+
+    }
+    .nigee h1{
+        margin-left: 1px;
+    }
+    h4{
+        margin-left: 60px;
+        font-size: 30px;
+    }
+    .jall img{
+        margin-left: 2px;
+    }
+    .logo h1{
+        margin-left: -500px;
+    }
+    
+}
+
+@media (max-width: 576px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+    .cta-btn {
+        padding: 8px 16px;
+    }
+    .logo h1{
+        margin-left: -200px;
+    }
+
+    .hero-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .hero-content p {
+        font-size: 0.9rem;
+    }
+    nav ul li {
+        margin: 3px 1px;
+        margin-left: -300px;
+        margin-top: 20px;
+        padding: 10px;
+        margin: 0;
+    
+    }
+    .hero-content h2 {
+        font-size: 1rem;
+    }
+    .hero {
+        background-image: url('imagez/uhaphone.JPG');
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+}
+@media (max-width: 320px) {
+    /* Styles for very small smartphones */
+    .hero-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.8rem;
+    }
+
+    .cta-btn {
+        padding: 6px 12px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+  
+    nav ul li {
+        margin: 3px 1px;
+        margin-left: -300px;
+        margin-top: 20px;
+        padding:5px;
+        margin: 0;
+    
+    }
+    .logo h1{
+        margin-left: -120px;
+    }
+
+    .team img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    h4{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+
+}
+
+
+
+    
